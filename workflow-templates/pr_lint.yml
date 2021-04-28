@@ -10,6 +10,6 @@ jobs:
     steps:
     - uses: seferov/pr-lint-action@master
       with:
-        title-regex: '^\[CLICKUP-*\](\ )'
+        title-regex: '\[CU-.*\]'
         github-token: ${{ secrets.GITHUB_TOKEN }}
         auto-close-message: 'Closing this pull request since the title does not contain Clickup id. Please fix the title and re-open the pull request.'
