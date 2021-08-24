@@ -1,0 +1,13 @@
+{
+    "name": "Shopup Organization Workflow",
+    "description": "Shopup Organization CI workflow template.",
+    "iconName": "example-icon",
+    "categories": [
+        "Go"
+    ],
+    "filePatterns": [
+        "package.json$",
+        "^Dockerfile",
+        ".*\\.md$"
+    ]
+}
